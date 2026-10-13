@@ -44,8 +44,8 @@ h2 {
 color: #148493;
 font-family: Georgia,"Times New Roman",Times,serif;
 font-size: 1.2em;
+margin-left: 0;
 
-margin-left: -4%;
 margin-top: -0.5em;
 margin-bottom: 0.5em;
 }
@@ -56,6 +56,7 @@ font-family: Georgia,"Times New Roman",Times,serif;
   margin-left: -4%;
   margin-top: -0.5em;
 margin-bottom: 0.5em;
+margin-left: 0;
 }
 
 p {
@@ -71,6 +72,7 @@ background: red;
 .first-line {
 font-weight: bold;
 }
+
 #first {
 font-size: 1.4em;
 color: blue;
@@ -78,7 +80,8 @@ margin-bottom: 40px;
 }
 .content-learned {
   border: 4px solid #148493;
-  padding: 20px 30px;
+  
+  padding: 30px 40px;
     
 }
 .content-learned p {
@@ -93,6 +96,7 @@ font-size: 1.2em; }
   box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.1); 
   border-radius: 8px; 
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
 }
 
 .content {
@@ -102,6 +106,7 @@ font-size: 1.2em; }
    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
 }
 
 
@@ -127,5 +132,5 @@ font-size: 1.2em; }
   margin-bottom: 0.5em;
 }
 .content p {
-  font-size: 0.8em; 
+  font-size: 0.9em; 
 }
