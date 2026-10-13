@@ -1,26 +1,63 @@
 body {
-color: gray;
-background: white;
+color: rgb(61, 59, 59);
+background: gainsboro;
 font-family: Verdana,Arial,Helvetica,sans-serif;
 margin-left: 10%;
 margin-right: 10%;
 }
+.about-me {
+  text-align: center; 
+  margin: 40px auto;
+  max-width: 600px;
+}
+.about-me h2 {
+  font-family: Georgia, serif; 
+  color: #148493;
+}
+
+.dream-dog {
+  text-align: center; 
+  margin: 40px 0; 
+}
+
+.dream-dog h3 {
+  color: #148493; 
+}
+
+
+.dog-photo {
+  width: 100%; 
+  max-width: 400px; 
+  border-radius: 15px; 
+  box-shadow: 6px 6px 12px rgba(0,0,0,0.15); 
+  margin-bottom: 15px;
+}
 h1 {
-color: #457926;
+color: rgb(138, 30, 104);
 font-family: Georgia,"Times New Roman",Times,serif;
-font-size: 2em;
+font-size: 1.5em;
 text-transform: uppercase;
-margin-left: -8%;
+
+
 }
 h2 {
-color: #457926;
+color: #148493;
 font-family: Georgia,"Times New Roman",Times,serif;
-font-size: 1.7em;
-border: solid;
+font-size: 1.2em;
+
 margin-left: -4%;
-margin-top: 2em;
-margin-bottom: 2em;
+margin-top: -0.5em;
+margin-bottom: 0.5em;
 }
+
+h3 {color: #cdca2a;
+font-family: Georgia,"Times New Roman",Times,serif;
+  font-size: 1.2em; 
+  margin-left: -4%;
+  margin-top: -0.5em;
+margin-bottom: 0.5em;
+}
+
 p {
 font-size: 1.2em;
 text-indent: 2em;
@@ -37,4 +74,58 @@ font-weight: bold;
 #first {
 font-size: 1.4em;
 color: blue;
+margin-bottom: 40px; 
+}
+.content-learned {
+  border: 4px solid #148493;
+  padding: 20px 30px;
+    
+}
+.content-learned p {
+    text-indent: 0;
+font-size: 1.2em; }
+    
+    
+.content-learned {
+  border: 4px solid #148493;
+  padding: 20px 30px;
+  margin-bottom: 40px;
+  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.1); 
+  border-radius: 8px; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.content {
+  border: 4px solid #cdca2a;
+  padding: 20px 30px;
+  margin-top: 40px;
+   box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.content-learned p, 
+.content-learned ul, 
+.content-learned li,
+.content p {
+  font-size: 1.0em;
+  color: rgb(61, 59, 59);
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  text-indent: 0;
+  line-height: 1.5;
+  font-weight: normal;       
+  margin-top: 0.5em;        
+  margin-bottom: 0.5em;
+}
+
+
+.content p {
+  text-indent: 0;
+  margin-left: 0;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.content p {
+  font-size: 0.8em; 
 }
